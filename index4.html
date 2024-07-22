@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+
+        }
+        nav img{
+            width: 50px;
+        }
+        nav button{
+           margin-left: 60%;
+            padding: 10px 0px;
+            border: 0px;
+            border-radius: 5px ;
+            font-weight: bold;
+            background-color: lightgreen;
+            color: black;
+
+
+        }
+        nav a{
+            text-decoration: none;
+            margin-left: 50px ;
+            justify-content: space-between;
+           
+            
+        }
+        nav a:hover{
+            color: lightgreen;
+        }
+        .container{
+            max-width: 1200px;
+            display: grid;
+            align-items: center;
+            margin: auto;
+            padding: 10px;
+            grid-template-columns: repeat(2,1fr);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            gap: 20px;
+
+        }
+         .image-section{
+            background-color: yellow;
+            max-height: 90vh;
+            height: 100%;
+
+         }
+           .image-section img{
+            height: 100%;
+            width:  70%;
+           }
+            .text>h1{
+                font-size: 40px;
+            }
+           .text>p{
+             color: rgb(58, 53, 53);
+           }
+           .text >button{
+              padding: 10px 50px;
+              margin-top: 30px;
+              align-items: center;
+              text-align: center;
+
+              
+           }
+           .section-03{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: auto;
+            align-items: center;
+            background-color: #2b1e16;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+           }
+           .sub-section{
+            margin: 10px 50px;
+            text-align: center;
+           }
+           .sub-section img {
+                  width: 150px;
+           }
+           .sub-section p{
+            color: #8c6e54;
+           }
+           .sub-section h1{
+              color: aliceblue;
+           }
+           .section-04{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: auto;
+            column-gap: 60px;
+            align-items: center;
+            padding: 30px 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           }
+          
+      
+            .section-04 .sub-section img{
+                text-align: center;
+                width: 100%;
+                height: 280px;
+                margin-top: -50px;
+            }
+
+            .section-04 .sub-section h1{
+                margin: 0px;
+                padding: 5px 0px;
+                font-size: 30px;
+            }
+             
+             .section-04 .sub-section p{
+                margin-top: 0px;
+                font-size: 15px;
+             }
+             .section-04 .text-section{
+                position: relative;
+                background-color: #fff;
+                margin-top: 0px;
+                top: -50px;
+                text-align: left;
+                border: 1px solid black;
+                border-radius: 0px 0px 25px 25px;
+             }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805 (1).png" alt="">
+        <div>
+            <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+      <div class="container">
+        <section class="text">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam molestiae, odio veniam repellendus earum eaque reprehenderit magnam unde natus minus quos tenetur, sed eligendi nobis et repellat nulla harum suscipit?</p>
+            <button>Read More</button>
+        </section>
+        <section class="image-section">
+            <img src="./istockphoto-870173346-612x612.jpg" alt="">
+        </section>
+      </div>
+      <section class="section-03">
+        <div class="sub-section">
+            <img src="./swiggy2340.jpg" alt="">
+            <h1>No Minimum order</h1>
+            <p>
+                Order in for yourself or for the group, with no restrictions on order
+                value
+            </p>
+        </div>
+        <div class="sub-section">
+            <img src="./swiggy2340.jpg" alt="">
+            <h1>Live order Tracking</h1>
+            <p>know where your order at all time
+                from  restaurant to your doorstep
+            </p>
+        </div>
+        <div class="sub-section">
+            <img src="./swiggy2340.jpg" alt="">
+            <h1>Lightning-Fast delivery</h1>
+            <p>
+                Expirecne Swiggy super fast delevery
+                for food deleverd  fresh & one time
+            </p>
+        </div>
+      </section>
+
+      <section class="section-04">
+        <div class="sub-section">
+            <img src="./istockphoto-524997465-1024x1024.jpg" alt="">
+            <div class="text-section">
+                <h1>order online</h1>
+                <p>Stay Home and order to your doorstep</p>
+            </div>
+        </div>
+        <div class="sub-section">
+            <img src="./pexels-mat-brown-150387-1395967.jpg" alt="">
+            <div class="text-section">
+                <h1>on-site Dining</h1>
+                <p>view The City's favourite Dining venue</p>
+            </div>
+        </div>
+        <div class="sub-section">
+            <img src="./pexels-edotommo99-2034851.jpg" alt="" height="500px">
+            <div class="text-section">
+                <h1>Night Life $ clubs</h1>
+            <p>Explore the city's top nightlife outlets & Book tables.</p>
+            </div>
+        </div>
+      </section>
+        section
+</body>
+</html>

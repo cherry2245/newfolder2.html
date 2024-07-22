@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+        }
+        nav img{
+            width: 50px;
+
+        }
+        nav a{
+            text-decoration: none;
+            color: #000;
+            margin-left: 50px;
+
+
+        }
+        nav a:hover{
+            color: lightcoral;
+            box-shadow: 2px 3px 5px;
+        }
+        nav button{
+            margin-left: 60%;
+            padding: 10px 0px;
+            border: 0px;
+            border-radius:5px ;
+            font-weight: 10px;
+            background-color: lightgreen;
+            color: black;      
+          }
+          .container{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin: auto;
+            padding: 10px;
+            gap: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+          }
+            .text h1{
+                font-size: 40px;
+            }
+            .text p{
+                font-family: Arial, Helvetica, sans-serif;
+                color: #42321c;
+            }
+            .image-arc{
+              background-color: yellow;
+                max-height: 90vh;
+                height: 100%;
+            }
+          .image-arc img{
+            height: 100%;
+            width: 70%;
+          }
+           .text>button{
+              background-color: #774747;
+              color: lightgreen;
+              padding: 10px 50px;
+              box-shadow: 5px 10px ;
+              font-size: large;
+           }
+           .section-03{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            border: 0px;
+            background-color: #2b1e16;
+            margin: auto;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  
+           }
+           .sub-section{
+            margin: 10px 50px;
+            align-items: center;
+           }
+           .sub-section img{
+            width: 150px;
+           }
+
+           .sub-section p{
+                 color: #8c6e54;
+           }
+           .sub-section h1{
+            color: aliceblue;
+           }
+           .section-04{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: auto;
+            column-gap:60px ;
+            align-items: center;
+            padding: 30px 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           }
+           .section-04 .sub-section img{
+            height: 280px;
+            width: 100%;
+            margin-top: -50px;
+           }
+           .section-04 .sub-section{
+            margin-top: 0px;
+            font-size: 15px;
+           }
+           .section-04 .sub-section{
+            position: relative;
+                background-color: #fff;
+                margin-top: 0px;
+                top: -50px;
+                text-align: left;
+                border: 1px solid black;
+                border-radius: 0px 0px 25px 25px;
+           }
+           .section-04 >.sub-section> .text-section>h1{
+               color: black;
+            margin: 0px;
+                padding: 5px 0px;
+                font-size: 30px;
+                text-align: center;
+            }
+             footer{
+              width: 1200px;
+              display: grid;
+              grid-template-columns: repeat(3,1fr);
+              margin: auto;
+              padding: 50px;
+              background-color: #2b1e16;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             }
+             footer img{
+              width: 300px;
+              text-align: center;
+              padding: 20px;
+             }
+             footer a{
+              display: block;
+              padding: 15px;
+              color: #8c6e54;
+              text-decoration: none;
+             }
+             footer h1{
+              color: #fff;
+             }
+             footer p{
+              text-align: center;
+              grid-column-start: 1;
+              grid-column-end:4 ;
+              font-size: 20px;
+              color: #fff;
+             }
+    </style>
+</head>
+<body>
+     <nav>
+        <img src="./istockphoto-1330796445-1024x1024.jpg" alt="">
+        <div><a href="#">Home</a><a href="#">About</a><a href="#">Contact</a></div>
+        <button>Login</button>
+     </nav>
+     <div class="container">
+        <section class="text">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci omnis nulla modi est consequatur quaerat excepturi harum, eius cupiditate, quia, pariatur possimus unde totam animi asperiores aspernatur aut tenetur.</p>
+              <button>Read More</button>      
+        </section>
+        <section class="image-arc">
+            <img src="./istockphoto-870173346-612x612.jpg" alt="">
+        </section>
+     </div>
+     <section class="section-03">
+      <div class="sub-section">
+        <img src="./swiggy2340.jpg" alt="">
+        <h1>No minimum  order</h1>
+        <p>
+          order in your self or for the group 
+          with no restrictions on order value
+        </p>
+      </div>
+      <div class="sub-section">
+        <img src="./swiggy2340.jpg" alt="">
+        <h1>Live order Tracking</h1>
+        <p>
+          know where your order is at all time
+          for resturent to your doorstep
+        </p>
+      </div>
+      <div class="sub-section">
+       <img src="./swiggy2340.jpg" alt="">
+        <h1>Lightning-Fast Delevery</h1>
+        <p>Experience swiggy super fast Delevery
+          For food deliverd fresh and on time
+        </p>
+      </div>
+     </section>
+     <section class="section-04">
+      <div class="sub-section">
+        <img src="./istockphoto-524997465-1024x1024.jpg" alt="">
+        <div class="text-section">
+          <h1>order online</h1>
+          <p>
+            stay home and order to your doorstep
+          </p>
+        </div>
+      </div>
+      <div class="sub-section">
+        <img src="./pexels-mat-brown-150387-1395967.jpg" alt="">
+        <div class="text-section">
+          <h1>On-site Dining</h1>
+          <p>
+            view the city's favourite Dining venue
+          </p>
+        </div>
+      </div>
+      <div class="sub-section">
+        <img src="./pexels-edotommo99-2034851.jpg" alt="">
+        <div class="text-section">
+          <h1>
+            Night Life & clubs
+          </h1>
+          <p>
+            Explore the city's Top nightlife & BOOK table
+          </p>
+        </div>
+      </div>
+     </section>
+     <footer>
+      <img src="./pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805 (1).png" alt="">
+      <div>
+       <h1>Navigation Link</h1>
+       <a href="#">Home</a>
+       <a href="">About</a>
+       <a href="">Contact</a>
+       <a href="">Login</a>
+      </div>
+      <div>
+        
+        <h1> Learn more</h1>
+        <a href="#">Privacy</a>
+        <a href="#">security</a>
+        <a href="#">Terms</a>
+        <a href="#">Sitemap</a>
+
+      </div>
+      <p>
+        &#169; Copyright All rights Reserved
+      </p>
+     </footer>
+</body>
+</html>

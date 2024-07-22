@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* border: 2px solid black; */
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+       
+
+        }
+          .rate img{
+            
+            height: 100%;
+            width: 70%;
+            background-color: yellow;
+          }
+          .rate {
+        background-color: yellow;
+        height: 100%;
+        max-height: 90vh;
+        }
+        .text>button{
+            padding: 10px 50px;
+        border: 0;
+        background-color: #000;
+        color: #fff;
+        margin-top: 30px;
+        font-size: large;
+
+        }
+        nav img{
+            width: 50px;
+        }
+        nav a{
+            text-decoration: none;
+            padding-right: 50px;
+        }
+        nav{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        nav a:hover{
+            color: #00ee7f;
+            font-weight: bold;
+        }
+         nav button{
+            margin-left: 60%;
+            padding: 10px 0px;
+            border: 0px;
+            border-radius:5px ;
+            background-color: #0fdb6b;
+            color: #000;
+         }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805 (1).png" alt="">
+        <div>
+            <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="container">
+        <section class="text">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores officiis blanditiis! Doloribus fugiat libero aspernatur ratione quia, quam, consequatur incidunt nam beatae recusandae est vero tempore, neque repellat deserunt veritatis pariatur hic laudantium perspiciatis expedita sint? Ratione, incidunt deserunt?</p>
+            <button>Read More</button>
+        </section>
+         <section class="rate">
+            <img src="./istockphoto-870173346-612x612.jpg" alt="">
+         </section>
+    </div>
+</body>
+</html>
